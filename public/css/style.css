@@ -258,6 +258,12 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Home */
 
+/* Hero */
+.heroSwiper img {
+    width: 100%;
+}
+/* Hero */
+
 /* Home About */
 .home_about_section {
     padding: 50px 0;
@@ -305,6 +311,9 @@ h1,h2,h3,h4,h5,h6 {
 .home_services_section h2 {
     font-size: 40px;
     margin-top: 20px;
+}
+.home_services_section .serviceSwiper a {
+    color: var(--first-color);
 }
 /* Services Section */
 
