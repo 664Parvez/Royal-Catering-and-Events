@@ -375,6 +375,40 @@ h1,h2,h3,h4,h5,h6 {
 }
 /* fifth section */
 
+/* Review Section */
+.home_review_section {
+    padding: 50px 0;
+}
+.home_review_section h5 {
+    background-color: var(--second-color);
+    display: inline;
+    padding: 5px 15px;
+    color: var(--white-color);
+    border-radius: 10px;
+}
+.review_left_section_img {
+    width: 100%;
+    margin-top: 20px;
+}
+.home_review_section h2 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+.review_box {
+    background-color: var(--offwhite-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+.rating_star ul li {
+    display: inline-block;
+    color: #ffb700;
+}
+.fa-quote-right {
+    font-size: 80px;
+    color: #b8b8b8;
+}
+/* Review Section */
+
 /* Blog Section */
 .home_blog_section {
     padding: 50px 0;
@@ -469,6 +503,9 @@ h1,h2,h3,h4,h5,h6 {
     background: var(--background);
     padding: 20px;
     border-radius: 10px;
+}
+.contact_form_side label {
+    color: var(--white-color);
 }
 /* Form */
 
@@ -687,6 +724,10 @@ h1,h2,h3,h4,h5,h6 {
 #blog_single_page img {
     width: 100%;
     border-radius: 10px;
+}
+.single_blog_tags {
+    background-color: var(--first-color);
+    border-radius: 5px;
 }
 .single_blog_tags ul li {
     display: inline-block;
