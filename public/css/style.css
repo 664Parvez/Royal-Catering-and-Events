@@ -477,6 +477,106 @@ h1,h2,h3,h4,h5,h6 {
 /* Home */
 
 
+/* About Page */
+
+/* About First */
+#about_first_section {
+    padding: 50px 0;
+}
+#about_first_section img {
+    width: 100%;
+}
+#about_first_section .btn {
+    background: var(--background);
+    color: var(--white-color);
+    margin-top: 30px;
+}
+#about_first_section h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+#about_second_section {
+    padding: 150px 0;
+    background-image: url("../image/bg-16.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#about_second_section .counting_div {
+    text-align: center;
+    background-color: var(--offwhite-color);
+    padding: 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+}
+#about_second_section h3 {
+    font-size: 70px;
+    font-weight: 600;
+    color: var(--first-color);
+}
+#about_second_section p {
+    color: var(--first-color);
+}   
+#about_third_section {
+    padding: 150px 0;
+    background-image: url("../image/bg-17.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#about_third_section h3 {
+    font-size: 50px;
+    font-weight: 600;
+}
+#about_third_section h4 {
+    color: var(--brown-color);
+}
+#about_third_section i {
+    font-size: 50px;
+    color: var(--brown-color);
+}
+#about_forth_section {
+    padding: 50px 0;
+}
+#about_forth_section h3 {
+    font-size: 50px;
+    font-weight: 600;
+}
+#about_forth_section .accordion-button:not(.collapsed) {
+    background-color: var(--brown-color) !important;
+    color: var(--offwhite-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #about_first_section {
+        padding: 30px 0;
+    }
+    #about_first_section h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #about_second_section {
+        padding: 30px 0;
+    }
+    #about_second_section h3 {
+        font-size: 50px;
+    }
+    #about_third_section {
+        padding: 30px 0;
+    }
+    #about_third_section h3 {
+        font-size: 40px;
+    }
+    #about_forth_section h3 {
+        font-size: 40px;
+    }
+}
+/* About First */
+
+/* About Page */
+
 
 /* Contact Us Page */
 
