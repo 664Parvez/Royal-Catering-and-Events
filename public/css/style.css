@@ -578,6 +578,43 @@ h1,h2,h3,h4,h5,h6 {
 /* About Page */
 
 
+/* Services */
+
+/* Wedding */
+#service_section {
+    padding: 50px 0;
+}
+#service_section img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+/* Wedding */
+
+#service_right {
+    background-color: var(--offwhite-color);
+    padding: 20px;
+    border-radius: 10px;
+    position: sticky;
+    top: 100px;
+    margin-top: 10px;
+}
+#service_right .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+#service_right ul li {
+    margin: 10px 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #service_section {
+        padding: 30px 0;
+    }
+}
+/* Services */
+
+
 /* Meet Team */
 
 /* First Section */
@@ -617,6 +654,85 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Meet Team */
 
+/* Word With Page */
+#first_work_section {
+    padding: 50px 0;
+}
+#first_work_section img {
+    border-radius: 20px;
+    width: 100%;
+}
+#first_work_section h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+#second_work_section {
+    padding: 50px 0;
+    background-color: var(--offwhite-color);
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #first_work_section {
+        padding: 30px 0;
+    }
+    #first_work_section h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #second_work_section {
+        padding: 30px 0;
+    }
+}
+/* Word With Page */
+
+/* Choose Page */
+#first_choose_section {
+    padding: 50px 0;
+}
+#first_choose_section img {
+    width: 100%;
+    border-radius: 10px;
+}
+#first_choose_section h3 {
+    font-weight: 600;
+}
+#first_choose_section p {
+    margin-bottom: 30px;
+}
+#second_choose_section {
+    padding: 50px 0;
+}
+#second_choose_section img {
+    width: 100%;
+    border-radius: 10px;
+}
+#second_choose_section h3 {
+    font-weight: 600;
+}
+#third_choose_section {
+    padding: 50px 0;
+    background-color: var(--brown-color);
+}
+#third_choose_section h3 {
+    color: var(--offwhite-color);
+}
+#forth_choose_section {
+    padding: 50px 0;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #first_choose_section {
+        padding: 30px 0;
+    }
+    #second_choose_section {
+        padding: 30px 0;
+    }
+    #third_choose_section {
+        padding: 30px 0;
+    }
+    #forth_choose_section {
+        padding: 30px 0;
+    }
+}
+/* Choose Page */
 
 /* Contact Us Page */
 

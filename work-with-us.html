@@ -11,6 +11,9 @@
     <!-- Fontawsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- Style -->
     <link rel="stylesheet" href="./public/css/style.css">
 
@@ -175,6 +178,79 @@
      <!-- Breadcrum -->
 
 
+     <!-- Main Section -->
+     <section>
+        <div id="first_work_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="./public/image/istockphoto-1457654918-612x612.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>We Are Eventino, No. 1 Event Management Agency</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere impedit porro neque dignissimos dolore doloribus corporis tenetur illum delectus? Sed, nostrum ipsum! Placeat odit voluptates a quam dolores dolorem.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus recusandae esse eligendi explicabo voluptates eveniet eaque quis tenetur laudantium est, expedita, dicta blanditiis consequuntur iure ea rem veniam debitis ab optio? Sed explicabo quis ea? Culpa facere inventore numquam quidem voluptatibus, illum, enim vitae eligendi quod veniam omnis velit.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta atque commodi accusamus? Molestias enim nemo nostrum debitis, eligendi reprehenderit quia?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="second_work_section">
+            <div class="container">
+                <!-- Swiper -->
+                <div class="swiper workWithSwiper mt-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="./wedding.html">
+                                <div class="card">
+                                    <img src="./public/image/wedding.webp" class="card-img" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./walima.html">
+                                <div class="card">
+                                    <img src="./public/image/walima.webp" class="card-img" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./anniversary.html">
+                                <div class="card">
+                                    <img src="./public/image/anniversery.webp" class="card-img" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./birthday.html">
+                                <div class="card">
+                                    <img src="./public/image/birthday.webp" class="card-img" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./nikkah.html">
+                                <div class="card">
+                                    <img src="./public/image/nikkah.webp" class="card-img" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./all-occasions.html">
+                                <div class="card">
+                                    <img src="./public/image/all-occasions.webp" class="card-img" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Main Section -->
+
 
 
 <!-- Footer -->
@@ -262,6 +338,44 @@
     </button>
     <!-- Back to Top -->
 
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Services Slide -->
+    <script>
+        var swiper = new Swiper(".workWithSwiper", {
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 10,
+                },
+                640: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 30,
+                },
+            },
+        });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
