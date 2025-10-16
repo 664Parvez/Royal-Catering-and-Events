@@ -59,6 +59,11 @@ h1,h2,h3,h4,h5,h6 {
     border: 1px solid var(--first-color);
 }
 
+/* Breadcrumb */
+#breadcrumb {
+    margin-top: 50px;
+}
+/* Breadcrumb */
 
 /* Top bar */
 #top_nav {
