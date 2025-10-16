@@ -877,6 +877,9 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--white-color);
     margin: 0 2px;
 }
+#myTabContent img {
+    border-radius: 10px;
+}
 @media only screen and (min-width: 300px) and (max-width: 500px) {
    #gallery_page {
         padding: 30px 0;
@@ -907,21 +910,21 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #blog_page .blog_right_search {
-    background-color: var(--div-color-one);
+    background-color: var(--second-color);
     padding: 15px;
     border-radius: 5px;
 }
 #blog_page .blog_right_search .btn {
-    background-color: var(--first-color);
-    color: var(--white-color);
+    background-color: var(--offwhite-color);
+    color: var(--first-color);
     border: none;
 }
 #blog_page .blog_right_search .btn:hover {
-    background-color: var(--second-color);
+    background-color: var(--brown-color);
     color: var(--white-color);
 }
 #blog_page .blog_right_category {
-    background-color: var(--div-color-two);
+    background-color: var(--offwhite-color);
     padding: 15px;
     border-radius: 5px;
 }
@@ -939,19 +942,25 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 40%;
 }
 #blog_page .blog_right_tags {
-    background-color: var(--div-color-one);
+    background-color: var(--first-color);
     padding: 15px;
     border-radius: 5px;
 }
+#blog_page .blog_right_tags hr {
+    color: var(--offwhite-color);
+}
+#blog_page .blog_right_tags h4 {
+    color: var(--offwhite-color);
+}
 #blog_page .blog_right_tags ul li {
     display: inline-block;
-    background-color: var(--first-color);
+    background-color: var(--offwhite-color);
     margin: 3px;
     padding: 5px;
     border-radius: 3px;
 }
 #blog_page .blog_right_tags ul li a {
-    color: var(--white-color);
+    color: var(--first-color);
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
@@ -969,6 +978,44 @@ h1,h2,h3,h4,h5,h6 {
 }
 /* Blog */
 
+/* Mission */
+#mission_vision_section {
+    padding: 50px 0;
+}
+.mission_vision_left_img {
+    width: 100% !important;
+    border-radius: 10px;
+}
+#mission_vision_section h3 {
+    font-weight: 600;
+}
+#mission_vision_section img {
+    width: 150px;
+}
+#mission_vision_div_first {
+    background-color: var(--offwhite-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+#mission_vision_div_second {
+    background-color: var(--offwhite-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+#mission_vision_div_third {
+    background-color: var(--offwhite-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #mission_vision_section {
+        padding: 30px 0;
+    }
+    .mission_vision_left_img {
+        display: none;
+    }
+}
+/* Mission */
 
 /* Single Blog */
 #blog_single_page {
